@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>E1Shop IPTV | Fast Streaming, 24/7 Support</title>
+  <meta name="description" content="E1Shop IPTV - stable streaming, multi-device support, instant activation and 24/7 support." />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Top bar -->
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="#home" aria-label="E1Shop Home">
+        <span class="brand-dot"></span>
+        <span class="brand-text">E1Shop</span>
+        <span class="brand-sub">IPTV</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#plans">Plans</a>
+        <a href="#features">Features</a>
+        <a href="#faq">FAQ</a>
+        <a href="#order" class="btn btn-small">Order</a>
+      </nav>
+
+      <button class="nav-toggle" aria-label="Open menu" id="navToggle">☰</button>
+    </div>
+  </header>
+
+  <!-- Mobile menu -->
+  <div class="mobile-nav" id="mobileNav" aria-hidden="true">
+    <a href="#plans">Plans</a>
+    <a href="#features">Features</a>
+    <a href="#faq">FAQ</a>
+    <a href="#order" class="btn">Order</a>
+  </div>
+
+  <!-- Hero -->
+  <main id="home" class="hero">
+    <div class="container hero-grid">
+      <section class="hero-left">
+        <div class="badge">⚡ Instant activation • 24/7 support</div>
+        <h1>
+          Stream smarter with
+          <span class="glow-text">E1Shop IPTV</span>
+        </h1>
+        <p class="muted">
+          Stable streaming, multi-device support, clear setup guides, and fast help when you need it.
+          (For licensed/authorized content only.)
+        </p>
+
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#plans">View Plans</a>
+          <a class="btn btn-ghost" href="#order">Order Now</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat">
+            <div class="stat-num">99.9%</div>
+            <div class="stat-label">Uptime target</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">24/7</div>
+            <div class="stat-label">Customer support</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">Multi</div>
+            <div class="stat-label">Device support</div>
+          </div>
+        </div>
+      </section>
+
+      <aside class="hero-card">
+        <div class="card glow-card">
+          <div class="card-header">
+            <h3>Quick Order</h3>
+            <p class="muted">Choose a plan and checkout via WhatsApp.</p>
+          </div>
+
+          <div class="card-body">
+            <label class="field">
+              <span>Plan</span>
+              <select id="quickPlan">
+                <option value="1 Month">1 Month</option>
+                <option value="3 Months">3 Months</option>
+                <option value="6 Months">6 Months</option>
+                <option value="12 Months">12 Months</option>
+              </select>
+            </label>
+
+            <label class="field">
+              <span>Devices</span>
+              <select id="quickDevices">
+                <option value="1 Device">1 Device</option>
+                <option value="2 Devices">2 Devices</option>
+                <option value="3 Devices">3 Devices</option>
+              </select>
+            </label>
+
+            <label class="field">
+              <span>Your Name</span>
+              <input id="quickName" type="text" placeholder="e.g. King" />
+            </label>
+
+            <label class="field">
+              <span>WhatsApp (optional)</span>
+              <input id="quickWhatsapp" type="text" placeholder="+60..." />
+            </label>
+
+            <button class="btn btn-primary w-full" id="quickCheckout">
+              Checkout on WhatsApp
+            </button>
+
+            <p class="tiny muted mt-12">
+              By ordering, you agree to only use authorized/legally provided content.
+            </p>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- Plans -->
+  <section id="plans" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>Plans</h2>
+        <p class="muted">Transparent pricing. Choose your duration and devices.</p>
+      </div>
+
+      <div class="plans">
+        <article class="plan">
+          <div class="plan-top">
+            <h3>Starter</h3>
+            <p class="muted">Best for testing</p>
+          </div>
+          <div class="price">
+            <span class="currency">RM</span>
+            <span class="amount" data-price="19">19</span>
+            <span class="period">/month</span>
+          </div>
+          <ul class="list">
+            <li>1 device</li>
+            <li>Setup guide included</li>
+            <li>Basic support</li>
+          </ul>
+          <button class="btn btn-ghost" data-plan="Starter (1 Month)" data-devices="1 Device" data-price="RM19">
+            Select
+          </button>
+        </article>
+
+        <article class="plan featured">
+          <div class="ribbon">Most Popular</div>
+          <div class="plan-top">
+            <h3>Pro</h3>
+            <p class="muted">Balanced value</p>
+          </div>
+          <div class="price">
+            <span class="currency">RM</span>
+            <span class="amount" data-price="49">49</span>
+            <span class="period">/3 months</span>
+          </div>
+          <ul class="list">
+            <li>2 devices</li>
+            <li>Priority support</li>
+            <li>Faster activation</li>
+          </ul>
+          <button class="btn btn-primary" data-plan="Pro (3 Months)" data-devices="2 Devices" data-price="RM49">
+            Select
+          </button>
+        </article>
+
+        <article class="plan">
+          <div class="plan-top">
+            <h3>Ultra</h3>
+            <p class="muted">Long-term savings</p>
+          </div>
+          <div class="price">
+            <span class="currency">RM</span>
+            <span class="amount" data-price="159">159</span>
+            <span class="period">/year</span>
+          </div>
+          <ul class="list">
+            <li>3 devices</li>
+            <li>VIP support</li>
+            <li>Free setup help</li>
+          </ul>
+          <butt

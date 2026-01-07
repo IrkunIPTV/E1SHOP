@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title> namaiptv</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ================= BANNER ================= -->
+<section class="banner">
+  <img src="banner7.png" alt="JC Mobile Banner">
+</section>
+
+<!-- ================= APPS ================= -->
+<section class="container">
+
+  <!-- ABANGTV -->
+  <div class="app-card">
+    <img src="abangtv.png" alt="ABANGTV" onerror="this.src='logo-default.png'">
+    <h2>ABANGTV</h2>
+    <p>Live TV, Movies & Sports</p>
+    <a href="#" class="btn" target="_blank" rel="noopener">⬇ Download App</a>
+    <button class="btn" onclick="openPackage('ABANGTV','ABANGTV')">📦 View Packages</button>
+    <a href="#" class="btn outline" target="_blank" rel="noopener">📞 Support Group</a>
+  </div>
+
+  <!-- APOGO -->
+  <div class="app-card">
+    <img src="apogo.png" alt="APOGO" onerror="this.src='logo-default.png'">
+    <h2>APOGO</h2>
+    <p>OTT Premium IPTV</p>
+    <a href="#" class="btn" target="_blank" rel="noopener">⬇ Download App</a>
+    <button class="btn" onclick="openPackage('APOGO','APOGO')">📦 View Packages</button>
+    <a href="#" class="btn outline" target="_blank" rel="noopener">📞 Support Group</a>
+  </div>
+
+  <!-- AXTRO MULTIROOM -->
+  <div class="app-card">
+    <img src="axtro.png" alt="AXTRO MULTIROOM" onerror="this.src='logo-default.png'">
+    <h2>AXTRO MULTIROOM</h2>
+    <p>Multiroom IPTV Package</p>
+    <a href="#" class="btn" target="_blank" rel="noopener">⬇ Download App</a>
+    <button class="btn" onclick="openPackage('AXTRO','AXTRO MULTIROOM')">📦 View Packages</button>
+    <a href="#" class="btn outline" target="_blank" rel="noopener">📞 Support Group</a>
+  </div>
+
+  <!-- GO OTT -->
+  <div class="app-card">
+    <img src="goott.png" alt="GO OTT" onerror="this.src='logo-default.png'">
+    <h2>GO OTT</h2>
+    <p>OTT Streaming Service</p>
+    <a href="#" class="btn" target="_blank" rel="noopener">⬇ Download App</a>
+    <button class="btn" onclick="openPackage('GOOTT','GO OTT')">📦 View Packages</button>
+    <a href="#" class="btn outline" target="_blank" rel="noopener">📞 Support Group</a>
+  </div>
+
+  <!-- IPTV4K -->
+  <div class="app-card">
+    <img src="iptv4k.png" alt="IPTV4K" onerror="this.src='logo-default.png'">
+    <h2>IPTV4K</h2>
+    <p>4K IPTV Service</p>
+    <a href="#" class="btn" target="_blank" rel="noopener">⬇ Download App</a>
+    <button class="btn" onclick="openPackage('IPTV4K','IPTV4K')">📦 View Packages</button>
+    <a href="#" class="btn outline" target="_blank" rel="noopener">📞 Support Group</a>
+  </div>
+
+  <!-- KINGTV -->
+  <div class="app-card">
+    <img src="kingtv.png" alt="KINGTV" onerror="this.src='logo-default.png'">
+    <h2>KINGTV</h2>
+    <p>Live TV, Movies & Sports</p>
+    <a href="#" class="btn" target="_blank" rel="noopener">⬇ Download App</a>
+    <button class="btn" onclick="openPackage('KINGTV','KINGTV')">📦 View Packages</button>
+    <a href="#" class="btn outline" target="_blank" rel="noopener">📞 Support Group</a>
+  </div>
+
+  <!-- MSTV -->
+  <div class="app-card">
+    <img src="mstv.png" alt="MSTV" onerror="this.src='logo-default.png'">
+    <h2>MSTV</h2>
+    <p>Premium IPTV Package</p>
+    <a href="#" class="btn" target="_blank" rel="noopener">⬇ Download App</a>
+    <button class="btn" onclick="openPackage('MSTV','MSTV')">📦 View Packages</button>
+    <a href="#" class="btn outline" target="_blank" rel="noopener">📞 Support Group</a>
+  </div>
+
+  <!-- MYIPTV4K -->
+  <div class="app-card">
+    <img src="myiptv4k.png" alt="MYIPTV4K" onerror="this.src='logo-default.png'">
+    <h2>MYIPTV4K</h2>
+    <p>Malaysia IPTV 4K</p>
+    <a href="#" class="btn" target="_blank" rel="noopener">⬇ Download App</a>
+    <button class="btn" onclick="openPackage('MYIPTV4K','MYIPTV4K')">📦 View Packages</button>
+    <a href="#" class="btn outline" target="_blank" rel="noopener">📞 Support Group</a>
+  </div>
+
+  <!-- SKYTV -->
+  <div class="app-card">
+    <img src="skytv.png" alt="SKYTV" onerror="this.src='logo-default.png'">
+    <h2>SKYTV</h2>
+    <p>Live & VOD Streaming</p>
+    <a href="#" class="btn" target="_blank" rel="noopener">⬇ Download App</a>
+    <button class="btn" onclick="openPackage('SKYTV','SKYTV')">📦 View Packages</button>
+    <a href="#" class="btn outline" target="_blank" rel="noopener">📞 Support Group</a>
+  </div>
+
+  <!-- SYOKTV -->
+  <div class="app-card">
+    <img src="syoktv.png" alt="SYOKTV" onerror="this.src='logo-default.png'">
+    <h2>SYOKTV</h2>
+    <p>OTT IPTV Premium</p>
+    <a href="#" class="btn" target="_blank" rel="noopener">⬇ Download App</a>
+    <button class="btn" onclick="openPackage('SYOKTV','SYOKTV')">📦 View Packages</button>
+    <a href="#" class="btn outline" target="_blank" rel="noopener">📞 Support Group</a>
+  </div>
+
+  <!-- TVTECH -->
+  <div class="app-card">
+    <img src="tvtech.png" alt="TVTECH" onerror="this.src='logo-default.png'">
+    <h2>TVTECH</h2>
+    <p>OTT IPTV Premium</p>
+    <a href="#" class="btn" target="_blank" rel="noopener">⬇ Download App</a>
+    <button class="btn" onclick="openPackage('TVTECH','TVTECH')">📦 View Packages</button>
+    <a href="#" class="btn outline" target="_blank" rel="noopener">📞 Support Group</a>
+  </div>
+
+  <!-- WDHD -->
+  <div class="app-card">
+    <img src="wdhd.png" alt="WDHD" onerror="this.src='logo-default.png'">
+    <h2>WDHD</h2>
+    <p>HD Streaming Service</p>
+    <a href="#" class="btn" target="_blank" rel="noopener">⬇ Download App</a>
+    <button class="btn" onclick="openPackage('WDHD','WDHD')">📦 View Packages</button>
+    <a href="#" class="btn outline" target="_blank" rel="noopener">📞 Support Group</a>
+  </div>
+
+  <!-- NETFLIX -->
+  <div class="app-card">
+    <img src="netflix.png" alt="NETFLIX" onerror="this.src='logo-default.png'">
+    <h2>NETFLIX</h2>
+    <p>Streaming Service</p>
+    <a href="#" class="btn" target="_blank" rel="noopener">⬇ Download App</a>
+    <button class="btn" onclick="openPackage('NETFLIX','NETFLIX')">📦 View Packages</button>
+    <a href="#" class="btn outline" target="_blank" rel="noopener">📞 Support Group</a>
+  </div>
+
+</section>
+
+<!-- ================= PAYMENT ================= -->
+<section class="payment">
+  <h2>💳 Payment Method</h2>
+  <div class="payment-box">
+
+    <a href="https://toyyibpay.com/" class="payment-btn toyyibpay" target="_blank" rel="noopener">
+      💳 Pay via ToyyibPay
+      <span>Online Banking • Card • E-Wallet</span>
+    </a>
+
+    <a href="https://wa.me/601" class="payment-btn whatsapp" target="_blank" rel="noopener">
+      💬 Pay via WhatsApp
+      <span>Manual Transfer</span>
+    </a>
+
+    <button class="payment-btn qr" onclick="openQR()">
+      📱 Scan QR Pay
+      <span>Instant Payment</span>
+    </button>
+
+  </div>
+</section>
+
+<!-- ================= CUSTOMER REVIEWS ================= -->
+<section class="reviews">
+  <h2>⭐ Customer Reviews</h2>
+  <p class="review-sub">Trusted by customers across Asia</p>
+
+  <div class="review-box">
+    <div class="review-card"><p class="review-text">“Very stable IPTV, HD quality and fast support.”</p><span class="review-name">— Minh T, Japan</span></div>
+    <div class="review-card"><p class="review-text">“Payment was easy and activation was instant.”</p><span class="review-name">— Somchai K, Thailand</span></div>
+    <div class="review-card"><p class="review-text">“Works perfectly on Android TV.”</p><span class="review-name">— Daniel L, Singapore</span></div>
+    <div class="review-card"><p class="review-text">“Customer service replies fast.”</p><span class="review-name">— Ahmad R, Malaysia</span></div>
+    <div class="review-card"><p class="review-text">“Smooth streaming, no buffering.”</p><span class="review-name">— Rizky A, Indonesia</span></div>
+  </div>
+</section>
+
+<!-- ================= RESELLER ================= -->
+<section class="reseller">
+  <h2>🤝 Become a Reseller</h2>
+  <p>Earn income by selling our IPTV</p>
+  <a href="https://wa.me/601792905?text=Hi%20I%20want%20to%20be%20a%20reseller" class="btn" target="_blank" rel="noopener">
+    💼 I Want to Be a Reseller
+  </a>
+</section>
+
+<!-- ================= HOURS ================= -->
+<section class="hours">
+  <h2>🕘 Operation Hours</h2>
+  <p>Daily • 9:00 AM – 11:00 PM</p>
+</section>
+
+<footer>© 2026  — All Rights Reserved</footer>
+
+<!-- ================= FLOATING ================= -->
+<a href="https://wa.me/60179290815" class="floating-whatsapp" target="_blank" rel="noopener">💬</a>
+<a href="https://t.me/jcmobileapps" class="floating-telegram" target="_blank" rel="noopener">✈️</a>
+
+<!-- ================= MODALS ================= -->
+<div class="modal" id="packageModal">
+  <div class="modal-box">
+    <h2 id="appTitle"></h2>
+    <ul id="priceList"></ul>
+    <button class="btn outline" onclick="closePackage()">Close</button>
+  </div>
+</div>
+
+<div class="modal" id="qrModal">
+  <div class="modal-box">
+    <h2>📲 Scan QR to Pay</h2>
+    <img src="qr.png" class="qr-img" alt="QR Pay">
+    <button class="btn outline" onclick="closeQR()">Done</button>
+  </div>
+</div>
+
+<!-- ================= SCRIPT ================= -->
+<script src="app.js"></script>
+
+</body>
+</html>
